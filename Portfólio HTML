@@ -60,13 +60,13 @@
   <header>
     <img src="https://img.freepik.com/vetores-gratis/circulo-azul-com-usuario-branco_78370-4707.jpg?semt=ais_rp_progressive&w=740&q=80" alt="foto-perfil" style="float: left; width:100px; margin-right: 10px;">
     <h1>Felipe Negreiros Souza</h1>
-    <p>Desenvolvedor backend | Web Designer | Estudante </p>
+    <p>Desenvolvedor backend | Web Designer | Estudante</p>
   </header>
 
   <nav>
-    <a href="#sobre">Sobre</a>
-    <a href="#contato">Contato</a>
+    <a href="#sobre min">Sobre Min</a>
     <a href="#experiencia-e-certificados">Experiência e Certificados</a>
+    <a href="#contato">Contato</a>
   </nav>
 
   <div class="container">
@@ -74,7 +74,8 @@
     <div id="sobre" class="section">
       <h2>Sobre Mim</h2>
       <p>Atualmente Trainee da EJEM(Empresa Júnior Engenharia Mackenzie), e aluno em Engenharia da Computação na Universidade Presbiteriana Mackenzie.</p>
-      <p>Mudei para SP aos 15 anos, cursei o Ensino Médio no CAVY (Colégio Adventista de Vila Yara).</p>
+      <p>Nasci em Belém do Pará e me mudei para SP aos 15 anos, cursei o Ensino Médio no CAVY (Colégio Adventista de Vila Yara), formei em 2024.</p>
+      <p>Sempre fui dedicado em tudo que fiz (a exemplo todo meu desempenho escolar), a faculdade e a própria Ejem têm sido uma experiência incrível até agora, e esperro aprender e crescer junto a empresa e a equipe cada vez mais. Sempre aberto a novos projetos e oportunidades de aprender!</p>
     </div>
 
     <div id="experiencia-e-certificados" class="section">
@@ -82,13 +83,16 @@
         <p>Trainee de Projetos - EJEM (Empresa Júnior Engenharia Mackenzie) | Mar de 2026</p>
         <p>Alura - Imersão Dados com Python II | Jan de 2026</p>
         <p>Curso de Idiomas Aslan - Inglês Intermediário | Dez de 2016</p>
+        <p>Duolingo - Score 116 em Inglês e 13 em Japonês</p>
     </div>
 
     <div id="contato" class="section">
       <h2>Contato</h2>
       <p>Número: (11) 91727-0069</p>
+      <p>Email Ejem: felipe.souza@ejemmackenzie.com.br</p>
       <p>Email: felipenegreirossouza@gmail.com</p>
       <p>LinkedIn: Felipe Negreiros Souza</p>
+      <p>Instagram: Felipens410</p>
     </div>
 
   </div>
