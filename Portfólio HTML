@@ -58,9 +58,9 @@
 <body>
 
   <header>
-    <img src="https://img.freepik.com/vetores-gratis/circulo-azul-com-usuario-branco_78370-4707.jpg?semt=ais_rp_progressive&w=740&q=80" alt="foto-perfil" style="float: left; width:100px; margin-right: 10px;">
+    <img src="https://media.licdn.com/dms/image/v2/D5603AQFQJ0voIrFsWg/profile-displayphoto-scale_400_400/B56Zw5Ng86KcAg-/0/1770486372697?e=1775692800&v=beta&t=i3BmoIcUOmoZwVvXwEA0rcPRw4sdG0GqbKJhitw0DNY" alt="foto-perfil" style="float: left; width:100px; margin-right: 10px;">
     <h1>Felipe Negreiros Souza</h1>
-    <p>Desenvolvedor backend | Web Designer | Estudante</p>
+    <p>Desenvolvedor backend | Engenheiro da Computação | Estudante</p>
   </header>
 
   <nav>
@@ -88,7 +88,7 @@
 
     <div id="contato" class="section">
       <h2>Contato</h2>
-      <p>Número: (11) 91727-0069</p>
+      <p>Whatsapp: (11) 91727-0069</p>
       <p>Email Ejem: felipe.souza@ejemmackenzie.com.br</p>
       <p>Email: felipenegreirossouza@gmail.com</p>
       <p>LinkedIn: Felipe Negreiros Souza</p>
