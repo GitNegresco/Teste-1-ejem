@@ -3,7 +3,12 @@
  <link rel="stylesheet" href="style.css">
  
 <head>
+    <meta charset="UTF-8">
     <style>
+        .script.js{
+          
+        }
+        
         .header{
             background: #FF0000;
             padding: 20px;
@@ -21,26 +26,49 @@
             padding: 10px;
             font-family: 'Arial';
         }
+        
         .container{
             background: #ffffff;
             padding: 20px;
-            display:broke;
-            right: 10px;
-            left: 10px;
+        }
+        
+        .section {
+      margin-bottom: 40px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        footer{
+            background: #333;
+            text-align: center;
+            padding: 20px;
+            color: white;
         }
     </style>
 </head>
 <body>
+    <div id="conteudo-api"></div>
+    <script src="script.js"></script>
+    
     <div class="header">
         <h1>Pokedéx</h1>
     </div>
     
     <div class="nav">
-        
     </div>
+    
+    <div class="section">
+      <p>nome do Pokémon</p>
+    </div>
+    
     <div class="container">
-        <img src:>
     </div>
+    
+    <footer>
+      <p> ©Pokémon Company - All rigths reserved<p/>
+    </footer>
     
 </body>
 </html>
