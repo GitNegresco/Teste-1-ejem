@@ -69,7 +69,6 @@ buttonNext.addEventListener('click', () => {
 });
 
 renderPokemon(searchPokemon);
-</head>
 
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
 
@@ -165,6 +164,7 @@ main {
   box-shadow: inset -4px 4px 0 #222;
   font-size: 0.9rem;
 }
+</head>
 
 <body>
   
