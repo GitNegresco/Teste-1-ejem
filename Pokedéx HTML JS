@@ -119,7 +119,7 @@
            box-sizing: border-box;
         }
           body{
-            background-color: #282828;
+            background-color: #fbe870;
             margin: 0;
             padding: 0;
          .header{
