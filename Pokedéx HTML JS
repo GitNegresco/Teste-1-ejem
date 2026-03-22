@@ -152,6 +152,117 @@
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
+         .pokedex{
+    width: 645px;
+    height: 455px;
+    display: none;
+    /*display: flex;*/
+    margin-top: 80px;
+
+}
+.pokedex .parte-esquerda{
+    width: 300px;
+    height: 455px;
+}
+
+.pokedex .parte-esquerda .placa-esquerda{
+    height: 420px;
+    width: 290px;
+    background-color: #fd1a55;
+    border-radius: 20px 0 0 20px;
+    position: absolute;
+    display: none;/*==================================================*/
+}
+.pokedex .parte-esquerda .borda-esquerda{
+    width: 290px;
+    height: 40px;
+    background-color: #481557;
+    border-radius: 0 0 5px 20px;
+    position: absolute;
+    top: 480px; 
+}
+
+.pokedex .parte-esquerda .sobra-esquerda{
+    background-color: #73c45a;
+    width: 298px;
+    height: 40px;
+    border-radius: 0 0 5px 30px;
+    top: 492px;
+    position: absolute;
+}
+.pokedex .parte-esquerda .placa-esquerda-fundo{
+    background-color: #ca215b;
+    width: 290px;
+    height: 355px;
+    position: absolute;
+    top: 65px;
+    border-radius: 0 0 0 20px;
+}
+.pokedex .parte-esquerda .borda-superior{
+    background-color: #481557;
+    width: 110px;
+    height: 24px;
+    position: absolute;
+    top: 92px;
+    left:   89px;
+    transform: rotate(-30deg);
+}
+.pokedex .parte-esquerda .borda-direita {
+    background-color: #481557;
+    width: 110px;
+    height: 24px;
+    position: absolute;
+    top: 65px;
+    left: 180px;
+    border-radius: 10px 0 0 0;
+}
+.pokedex .parte-esquerda .borda2 {
+    background-color: #481557;
+    width: 110px;
+    height: 24px;
+    position: absolute;
+    top: 118px;
+    border-radius: 0 0 10px 0 ;
+    
+}
+.pokedex .parte-esquerda .borda-lateral {
+    background-color: #481557;
+    width: 70px;
+    height: 14px;
+    position: absolute;
+    top: 28px;
+    left: 248px;
+    transform: rotate(90deg);
+}
+.red-sup {
+    background-color: #fd1a55;
+    width: 95px;
+    height: 55px;
+    position: absolute;
+    top: 63px;
+}
+.red-sub {
+    background-color: #fd1a55;
+    width: 110px;
+    height: 55px;
+    position: absolute;
+    top: 40px;
+    left: 74px;
+    transform: rotate(-30deg);
+    border-radius: 0 10px 5px 2px;
+}
+
+.placa-planel {
+    width: 260px;
+    height: 320px;
+    border: 5px solid #481557;
+    border-radius: 0 0 0 20px;
+    margin-top: 20px;
+}
+.placa-esquerda-fundo{
+   display: flex;
+   justify-content: center;
+}
         
     </style>
 </head>
