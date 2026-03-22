@@ -19,7 +19,6 @@
             document.querySelector('.container2').style.display = 'none';
              document.querySelector('.pokedex').style.display = 'flex';  
              document.querySelector('.placa-esquerda').style.display = 'block';
-             document.querySelector('.placa-direita').style.display = 'flex';
              document.querySelector('.sup-lateral1').style.display = 'block';
              document.querySelector('.caixa').style.backgroundColor = '#f8ee5f';  
             let cont2 = 0;
