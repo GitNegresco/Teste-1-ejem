@@ -1,0 +1,50 @@
+Capítulo 4:
+Aos se trabalhar com dados existem inúmeras métricas diferentes e todas tendem a algum tipo de erro uma vez que todos os dados apresentam desbalanceamentos que levam a acurácias enganosas.
+
+Atualmente existem dois de métricas utilizadas pelas empresas:
+THRESHOLD-BASED: precision/reacll/f1
+THRESHOLD-FREE: AUC ROC/AP(Average precision)
+sendo o free AUC ROC o mais utilizado atualmente, porém o AP vem ganhando mais espaço e sendo mais recomendado por ser mais preciso, trabalhando junto com o AUC ROC.
+
+AP ≈ muito mais útil
+AUC ROC pode mascarar problemas
+
+Resumo simples (pra guardar)
+AUC ROC → mede separação geral
+AP → mede qualidade na detecção de fraudes (positivos raros)
+Para fraude → AP é mais confiável
+ou seja o IDEAL é usar uma diversidade de métricas que trabalhem juntas se complementando!
+
+Capítulo 6:
+Estudo de Imbaleced Learning
+O principipal problema de um sistema reconhecer a fraude é que elas são raríssimas de acontecerem, logo são grupo minoritário no meio de um banco de dos enorme e o sistema passa despercebido.
+
+A maioria dos algoritmos:
+não foi feita para dados desbalanceados
+Resultado:
+o modelo fica tendencioso para a classe majoritária
+ignora ou aprende mal a classe minoritária (fraude)
+
+Problemas desbalanceados são comuns em:
+telecomunicações
+bioinformática
+diagnóstico médico
+Ou seja: é um problema geral em MACHINE LEARNING!
+
+Dois meios de resolver isso apresentados por:
+
+COST-SENSITIVE LEARNING (nível do modelo)
+alterar o algoritmo do banco de dados para dar mais importância à classe rara (fraude)
+Como funciona:
+modifica a função de custo do modelo
+penaliza mais os erros em fraudes
+o modelo “presta mais atenção” na classe minoritária
+
+RESAMPLING (nível de dados)
+equilibrar o dataset antes de treinar, o recomendado é utilizar a combinação entre os dois métodos:
+➤ Undersampling
+remove exemplos da classe majoritária
+➤ Oversampling
+adiciona exemplos da classe minoritária
+➤ Combinação
+mistura os dois métodos
